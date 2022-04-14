@@ -1,0 +1,84 @@
+.header {
+  background-image: url("img/bg1.jpg");
+  background-color: rgba(211, 104, 17, 0.377);
+  text-align: center;
+  color: black;
+  padding: 5px;
+  height: 600px;
+}
+.boby {
+  background-color:bisque;
+}
+
+
+.header-center {
+  width: 100%;
+  text-align: center
+}
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: justify;
+  border: 2px;
+}
+.image {
+  width: 600px;
+
+}
+.work {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.work-center {
+
+  width: auto;
+  height: auto;
+  margin: 20px;
+  text-align: justify;
+}
+.head-color {
+  color: red;
+}
+#text-center {
+  text-align: center;
+}
+#text-center1, #text-center2, #text-center3, #head-center {
+  text-align: center;
+}
+.cards {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+.card-row1 {
+  background-color: aqua;
+  height: auto;
+  width: auto;
+  justify-content: center;
+}
+.icon-color {
+  color: orangered;
+  text-align: center;
+
+}
+.card-div {
+  background-color:beige;
+}
+p.work-center {
+  text-align: center;
+}
+
+
+
+.img-size {
+  width: auto;
+}
+
+.gellary {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+  justify-content: center;
+}
