@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>UI task</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -43,7 +43,7 @@
       <br>
       <br>
       <div class="d-flex flex-column header-center ">
-        <h1>Best Template For Creative Business</h1>
+        <h1 class="head-color">Best Template For Creative Business</h1>
         <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
         <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner </p>
       </div>
@@ -57,18 +57,20 @@
       </div>
 
     </div>
-    <div class="work">
-      <div class="work-center justify">
+    <div class="work row col-md-12 head">
+      <div class="work-center justify col-md-4">
         <h2>Heading</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p>
-        <p>Hope you all are doing great and busy collecting all the blessings<br>
-          in this month of Ramazan:mosque:We’re planning to have a mehfil for<br>
-          Naat and Qiraat to cherish the prosperity of this holy month on Wednesday<br>
-          20th April, 2022.The timing for this mehfil would be around 3pm to 5pm in<br>
-          which we’ll have sessions for Naat and <br>Qiraat by all the participants</p>
+        <p>Hope you all are doing great and busy collecting all the blessings
+          in this month of Ramazan:mosque:We’re planning to have a mehfil for
+          in this month of Ramazan:mosque:We’re planning to have a mehfil for
+          in this month of Ramazan:mosque:We’re planning to have a mehfil for
+          Naat and Qiraat to cherish the prosperity of this holy month on Wednesday
+          20th April, 2022.The timing for this mehfil would be around 3pm to 5pm in<
+          which we’ll have sessions for Naat and Qiraat by all the participants</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
       </div>
-      <div class="work-center">
+      <div class="work-center col-md-4 head">
         <img title="gall1" src="img/gall1.jpg" class="image">
       </div>
     </div>
@@ -80,7 +82,7 @@
       </div>
     </div>
       <div class="work card-div">
-        <div class="work-center card border-0">
+        <div class="work-center card border-0 card-shadow">
           <i class="fa fa-line-chart fa-6xl icon-color icon"></i>
 
             <div class="card-body work-center border-0">
@@ -89,7 +91,7 @@
               euismod
             </div>
         </div>
-        <div class="work-center card border-0">
+        <div class="work-center card border-0 card-shadow">
           <i class="fa fa-bullhorn fa-2xl icon-color icon"></i>
           <div class="card-body work-center">
             sed odio dui. Etiam porta sem<br>
@@ -97,7 +99,7 @@
             euismod
           </div>
         </div>
-      <div class="work-center card border-0">
+      <div class="work-center card border-0 card-shadow">
         <i class="fa fa-map icon-color icon"></i>
         <div class="card-body work-center">
           sed odio dui. Etiam porta sem<br>
@@ -106,7 +108,7 @@
         </div>
       </div>
 
-        <div class="work-center card border-0">
+        <div class="work-center card border-0 card-shadow">
           <i class="fa fa-bug icon-color icon"></i>
           <div class="card-body work-center">
             sed odio dui. Etiam porta sem<br>
@@ -114,7 +116,7 @@
             euismod
           </div>
         </div>
-        <div class="work-center card border-0">
+        <div class="work-center card border-0 card-shadow">
           <i class="fa fa-comments icon-color icon"></i>
           <div class="card-body work-center">
             sed odio dui. Etiam porta sem<br>
@@ -122,7 +124,7 @@
             euismod
           </div>
       </div>
-      <div class="work-center card border-0">
+      <div class="work-center card border-0 card-shadow">
         <i class="fa fa-paint-brush icon-color icon"></i>
         <div class="card-body work-center">
           sed odio dui. Etiam porta sem<br>
@@ -200,16 +202,18 @@
                             </div>
                             <div class="col-md-6 animate padding">
                                 <form  method="post" action="#">
-                                    <div class="input-field">
-                                        <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                    <div class="input-field padding">
+                                        <input type="text" class="form-control padding" name="name" id="name" required placeholder="Name">
                                     </div>
-                                    <div class="input-field">
-                                        <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                                    <div class="input-field padding">
+                                        <input type="email" class="form-control padding" name="email" id="email" required placeholder="Email">
                                     </div>
-                                    <div class="input-field">
-                                        <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+                                    <div class="input-field padding">
+                                        <textarea class="form-control padding" name="message" id="message" required placeholder="Message"></textarea>
                                     </div>
-                                    <button class="btn btn-secondary" type="submit">Submit</button>
+                                    <div>
+                                    <button class="btn btn-secondary padding " type="submit">Submit</button>
+
                                 </form>
                                 <div id="form-messages" class="mt-3"></div>
                             </div>
