@@ -1,0 +1,9 @@
+I"h(function() {
+  var b;
+
+  b = document.getElementById("demo");
+
+  window.alert(b);
+
+}).call(this);
+:ET
